@@ -22,7 +22,7 @@ def FakePlayer():
     server = input(f'\033[31mServer:\033[0m ')
     port = int(input(f'\033[31mPort:\033[0m '))
     quantity = int(input(f'\033[31mQuantity:\033[0m '))
-    intervalo = float(input(f'\033[31mIntervalo entre mensagens (segundos):\033[0m '))
+    intervalo = float(input(f'\033[31minterval between messages (seconds):\033[0m '))
 
     bots = []
 
