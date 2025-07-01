@@ -1,8 +1,4 @@
-'''
-    Syn flood program in python using raw sockets (Linux)
-    http://www.binarytides.com/python-syn-flood-program-raw-sockets-linux/
-    Silver Moon (m00n.silv3r@gmail.com)
-'''
+
  
 # some imports
 import socket, sys
