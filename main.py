@@ -99,4 +99,4 @@ if opcao == 2:
     AttackUDP()
 
 if opcao == 3:
-    AttackSYN() #Somente linux
+    AttackSYN() #Only linux
