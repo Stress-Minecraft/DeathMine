@@ -43,7 +43,7 @@ def FakePlayer():
 
             @On(self.bot, "login")
             def login(_):
-                print(f'\033[32m{self.username} conectado!\033[0m')
+                print(f'\033[32m{self.username} connected!\033[0m')
                 threading.Thread(target=self.chat).start()
 
         def chat(self):
@@ -51,9 +51,9 @@ def FakePlayer():
                 msg = random.choice(messages)
                 try:
                     self.bot.chat(msg)
-                    print(f'\033[35m[{self.username}] Enviou: {msg}\033[0m')
+                    print(f'\033[35m[{self.username}] Send: {msg}\033[0m')
                 except Exception as e:
-                    print(f'\033[31m[{self.username}] Erro: {e}\033[0m')
+                    print(f'\033[31m[{self.username}] Error: {e}\033[0m')
                 time.sleep(intervalo)
 
     
